@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
+
 class MainActivity : AppCompatActivity() {
     //declaration
     private lateinit var textView: TextView
