@@ -39,5 +39,8 @@ Date: 16 Jun 2022
 URL: **[EFF](youtube.com/watch?v=yFLUgORfhkk&index=1&t=28s)**
 Website: YouTube</p>
 
+<p>Here is a link to the YouTube video of the actual application at play.
+https://youtu.be/utF4-CEjC58</p>
+
 <h6>CONLUSION</h6>
 <p>I hope more developers provide a better insight on this project as it has been made public for all intrested developers to have a take on it and provide additional updates.</p>
