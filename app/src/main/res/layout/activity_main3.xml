@@ -17,6 +17,7 @@
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -29,7 +30,8 @@
         android:text="PLAY"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/button3"
@@ -41,7 +43,8 @@
         android:text="FEED"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/button4"
@@ -53,7 +56,8 @@
         android:text="CLEAN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText" />
 
     <TextView
         android:id="@+id/Playtextbar"
@@ -64,7 +68,8 @@
         android:text="HAPPPINESS"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/Feedtextbar"
@@ -75,7 +80,8 @@
         android:text="HUNGER"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Playtextbar" />
+        app:layout_constraintTop_toBottomOf="@+id/Playtextbar"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/Cleantextbar"
@@ -86,7 +92,8 @@
         android:text="CLEAN"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Feedtextbar" />
+        app:layout_constraintTop_toBottomOf="@+id/Feedtextbar"
+        tools:ignore="HardcodedText" />
 
     <ProgressBar
         android:id="@+id/Happinessbar"
