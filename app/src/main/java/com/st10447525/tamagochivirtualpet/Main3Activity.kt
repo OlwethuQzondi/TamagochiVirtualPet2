@@ -1,13 +1,12 @@
 package com.st10447525.tamagochivirtualpet
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
 
 class Main3Activity : AppCompatActivity() {
     //declare
